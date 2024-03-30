@@ -122,6 +122,10 @@ h1, h2 {
     object-fit: cover;
 }
 
+.piano{
+    object-fit: fill;
+}
+
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
@@ -196,15 +200,27 @@ footer > p {
 
 
 
-@media (max-width: 61.25em){
+@media (max-width: 544px){
     html {
         font-size: 58%;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    .project-title {
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 75em){
     html {
         font-size: 60%;
+    }
+}
+
+@media (min-width: 1321px){
+    .projects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
