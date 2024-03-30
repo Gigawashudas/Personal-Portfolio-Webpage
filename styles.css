@@ -189,12 +189,13 @@ footer > p {
     margin: 2rem;
 }
 
-@media (max-width: 544px){
+@media (max-width: 760px){
     html {
         font-size: 58%;
     }
     .projects-grid {
         grid-template-columns: 1fr;
+        width: 90%;
     }
     .project-title {
         font-size: 1.5rem;
